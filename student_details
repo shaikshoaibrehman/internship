@@ -80,7 +80,7 @@ def view_record():
 
 # Initializing the GUI window
 main = Tk()
-main.title('DataFlair School Management System')
+main.title(' shoaib School Management System')
 main.geometry('1000x600')
 main.resizable(0, 0)
 # Creating the background and foreground color variables
@@ -93,7 +93,7 @@ contact_strvar = StringVar()
 gender_strvar = StringVar()
 stream_strvar = StringVar()
 # Placing the components in the main window
-Label(main, text="SCHOOL MANAGEMENT SYSTEM", font=headlabelfont, bg='SpringGreen').pack(side=TOP, fill=X)
+Label(main, text=" SHOAIB SCHOOL MANAGEMENT SYSTEM", font=headlabelfont, bg='SpringGreen').pack(side=TOP, fill=X)
 left_frame = Frame(main, bg=lf_bg)
 left_frame.place(x=0, y=30, relheight=1, relwidth=0.2)
 center_frame = Frame(main, bg=cf_bg)
